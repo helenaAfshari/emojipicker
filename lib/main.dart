@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:emoji_picker_getx/main.dart';
 
-import 'emoji_picker.dart';
+import 'emoji_picker_controller.dart';
 
 void main() {
   runApp(const MyApp());
