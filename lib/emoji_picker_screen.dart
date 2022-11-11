@@ -1,18 +1,17 @@
 
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 import 'package:emoji_picker_flutter/emoji_picker_flutter.dart';
 import 'package:get/get.dart';
 
 import 'controller/emoji_controller.dart';
 // ignore: must_be_immutable
-class EmojiPickerController extends StatelessWidget{
-  Controllerr controllerr = Get.put(Controllerr());
+class EmojiPickerScreen extends StatelessWidget{
+  EmojiPickerControllerr controllerr = Get.put(EmojiPickerControllerr());
 
-  EmojiPickerController({super.key});
+  EmojiPickerScreen({super.key});
   @override
   Widget build(BuildContext context) {
-    
     return Scaffold(
      // click back not exit app 
      body: WillPopScope(

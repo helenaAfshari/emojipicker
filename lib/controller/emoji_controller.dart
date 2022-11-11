@@ -2,7 +2,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
-class Controllerr extends GetxController{
+class EmojiPickerControllerr extends GetxController{
  FocusNode focusNode = FocusNode();
   var isEmoji = false.obs;
   TextEditingController textEditingController=TextEditingController();
