@@ -5,7 +5,7 @@ import 'package:emoji_picker_flutter/emoji_picker_flutter.dart';
 import 'package:get/get.dart';
 
 import 'controller/emoji_controller.dart';
-class EmojiFFF extends StatelessWidget{
+class EmojiPickerController extends StatelessWidget{
   Controllerr controllerr = Get.put(Controllerr());
   @override
   Widget build(BuildContext context) {
